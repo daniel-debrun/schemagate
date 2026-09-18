@@ -1,0 +1,20 @@
+name: retail_pos_transaction
+table: pos_transaction_lines
+description: Line-level point-of-sale export from a store.
+key: [store_id, transaction_id, line_number]
+fields:
+  - {name: store_id, type: string, required: true, description: Store or location code., aliases: [location id, shop id, branch code]}
+  - {name: register_id, type: string, description: Till or register identifier., aliases: [till, lane, pos id]}
+  - {name: transaction_id, type: string, required: true, description: Receipt or ticket identifier., aliases: [receipt number, ticket id, basket id]}
+  - {name: line_number, type: integer, required: true, description: Line position within the receipt., aliases: [line, item seq]}
+  - {name: transaction_timestamp, type: date, required: true, description: Date of the sale., aliases: [sale date, business date]}
+  - {name: cashier_id, type: string, description: Employee who rang the sale., aliases: [operator, clerk id]}
+  - {name: sku, type: string, required: true, description: Stock keeping unit sold., aliases: [item number, article number, upc]}
+  - {name: product_name, type: string, description: Product description printed on the receipt., aliases: [item name, article description]}
+  - {name: quantity_sold, type: number, required: true, description: Units sold on the line; negative for returns., aliases: [units sold, qty]}
+  - {name: unit_price, type: number, unit: usd, description: Shelf price per unit., aliases: [retail price, price]}
+  - {name: discount_amount, type: number, unit: usd, description: Total discount applied to the line., aliases: [markdown, promo amount]}
+  - {name: net_sales, type: number, unit: usd, description: Line revenue after discounts before tax., aliases: [net amount, sales value]}
+  - {name: tax_amount, type: number, unit: usd, description: Sales tax charged on the line., aliases: [vat amount, gst]}
+  - {name: payment_method, type: string, description: Tender type used., allowed_values: [cash, card, mobile, gift card], aliases: [tender type, tender]}
+  - {name: loyalty_member, type: boolean, description: Whether a loyalty card was scanned., aliases: [member flag, rewards customer]}

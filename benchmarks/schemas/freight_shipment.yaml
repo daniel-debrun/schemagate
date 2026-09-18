@@ -1,0 +1,20 @@
+name: freight_shipment
+table: freight_shipments
+description: Shipment-level manifest from a freight carrier or forwarder.
+key: [carrier_code, tracking_number]
+fields:
+  - {name: carrier_code, type: string, required: true, description: SCAC or internal carrier code., aliases: [scac, carrier id]}
+  - {name: tracking_number, type: string, required: true, description: Carrier tracking or pro number., aliases: [pro number, waybill, bill of lading]}
+  - {name: ship_date, type: date, required: true, description: Date the freight was picked up., aliases: [pickup date, dispatch date]}
+  - {name: delivery_date, type: date, description: Date the freight was delivered., aliases: [delivered on, pod date]}
+  - {name: origin_city, type: string, description: City of the pickup location., aliases: [from city, shipper city]}
+  - {name: origin_postal_code, type: string, description: Postal code of the pickup location., aliases: [origin zip, shipper zip]}
+  - {name: destination_city, type: string, description: City of the delivery location., aliases: [to city, consignee city]}
+  - {name: destination_postal_code, type: string, description: Postal code of the delivery location., aliases: [dest zip, consignee zip]}
+  - {name: service_level, type: string, description: Service type purchased., allowed_values: [ltl, ftl, parcel, expedited], aliases: [mode, service type]}
+  - {name: pieces, type: integer, description: Number of handling units., aliases: [handling units, pallet count]}
+  - {name: gross_weight_kg, type: number, unit: kg, description: Total shipment weight in kilograms., aliases: [weight kg, total weight]}
+  - {name: freight_charge, type: number, unit: usd, required: true, description: Base linehaul charge., aliases: [linehaul, base rate]}
+  - {name: fuel_surcharge, type: number, unit: usd, description: Fuel surcharge amount., aliases: [fsc, fuel]}
+  - {name: accessorial_charges, type: number, unit: usd, description: Liftgate, detention and other extra charges., aliases: [accessorials, extra charges]}
+  - {name: total_charge, type: number, unit: usd, required: true, description: Total invoiced amount for the shipment., aliases: [total amount, invoice amount]}

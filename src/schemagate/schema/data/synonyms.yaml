@@ -1,0 +1,66 @@
+# Token-level synonyms: source token -> canonical token(s).
+# Generic business vocabulary only; domain terms belong in the target schema's `synonyms:` block.
+synonyms:
+  qty: quantity
+  qnty: quantity
+  quant: quantity
+  amt: amount
+  amnt: amount
+  dt: date
+  dte: date
+  no: number
+  nbr: number
+  num: number
+  nr: number
+  id: identifier
+  ident: identifier
+  desc: description
+  descr: description
+  pct: percent
+  perc: percent
+  prc: price
+  px: price
+  cust: customer
+  vend: vendor
+  supp: supplier
+  suppl: supplier
+  inv: invoice
+  po: purchase order
+  ccy: currency
+  cur: currency
+  curr: currency
+  tot: total
+  ttl: total
+  cnt: count
+  addr: address
+  tel: phone
+  ph: phone
+  sku: sku
+  uom: unit of measure
+  wt: weight
+  wgt: weight
+  ref: reference
+  acct: account
+  txn: transaction
+  trx: transaction
+  yr: year
+  mo: month
+  mth: month
+  zip: postal code
+  postcode: postal code
+  dob: birth date
+  ctry: country
+  cntry: country
+  loc: location
+  dept: department
+  mgr: manager
+  emp: employee
+  stat: status
+  sts: status
+  cat: category
+  seq: sequence
+  ln: line
+  lin: line
+  disc: discount
+  subtot: subtotal
+stopwords: [of, the, a, an, in, for, by, to, per]

@@ -1,0 +1,37 @@
+Invoice Number,Line,Invoice Date,Vendor ID,Vendor Name,SKU,Description,Qty,Unit Price (USD),Line Total (USD),Tax %,Currency,PO Number,Due Date
+NW-08001,1,2026-08-04,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",48,9.10,436.80,13%,USD,PO-40667,2026-09-03
+NW-08001,2,2026-08-04,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,67,23.60,1581.20,13%,USD,PO-40667,2026-09-03
+NW-08001,3,2026-08-04,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,63,23.60,1486.80,13%,USD,PO-40667,2026-09-03
+NW-08001,4,2026-08-04,NW-0042,Northwind Supplies Ltd,TAP-0048,"Packing tape 48mm, 6 pack",42,7.45,312.90,0%,USD,PO-40667,2026-09-03
+NW-08001,5,2026-08-04,NW-0042,Northwind Supplies Ltd,TAP-0048,"Packing tape 48mm, 6 pack",28,7.45,208.60,13%,USD,PO-40667,2026-09-03
+NW-08002,1,2026-08-25,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",57,6.25,356.25,13%,USD,PO-49061,2026-09-24
+NW-08002,2,2026-08-25,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,25,23.60,590.00,0%,USD,PO-49061,2026-09-24
+NW-08002,3,2026-08-25,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",113,6.25,706.25,13%,USD,PO-49061,2026-09-24
+NW-08002,4,2026-08-25,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",107,6.25,668.75,0%,USD,PO-49061,2026-09-24
+NW-08002,5,2026-08-25,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,58,14.00,812.00,13%,USD,PO-49061,2026-09-24
+NW-08003,1,2026-08-02,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,15,14.00,210.00,5%,USD,PO-45563,2026-09-01
+NW-08003,2,2026-08-02,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,33,23.60,778.80,13%,USD,PO-45563,2026-09-01
+NW-08003,3,2026-08-02,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",32,9.10,291.20,5%,USD,PO-45563,2026-09-01
+NW-08003,4,2026-08-02,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",25,6.25,156.25,13%,USD,PO-45563,2026-09-01
+NW-08003,5,2026-08-02,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,50,23.60,1180.00,13%,USD,PO-45563,2026-09-01
+NW-08004,1,2026-08-04,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",110,9.10,1001.00,5%,USD,PO-43851,2026-09-03
+NW-08004,2,2026-08-04,NW-0042,Northwind Supplies Ltd,PKG-0300,Corrugated carton 40x30x30,70,0.84,58.80,13%,USD,PO-43851,2026-09-03
+NW-08005,1,2026-08-07,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",86,11.90,1023.40,13%,USD,PO-44294,2026-09-06
+NW-08005,2,2026-08-07,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",1,6.25,6.25,5%,USD,PO-44294,2026-09-06
+NW-08005,3,2026-08-07,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,107,14.00,1498.00,5%,USD,PO-44294,2026-09-06
+NW-08005,4,2026-08-07,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",85,9.10,773.50,5%,USD,PO-44294,2026-09-06
+NW-08005,5,2026-08-07,NW-0042,Northwind Supplies Ltd,TAP-0048,"Packing tape 48mm, 6 pack",101,7.45,752.45,5%,USD,PO-44294,2026-09-06
+NW-08006,1,2026-08-26,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",40,9.10,364.00,0%,USD,PO-41151,2026-09-25
+NW-08006,2,2026-08-26,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",85,6.25,531.25,13%,USD,PO-41151,2026-09-25
+NW-08006,3,2026-08-26,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",111,9.10,1010.10,5%,USD,PO-41151,2026-09-25
+NW-08006,4,2026-08-26,NW-0042,Northwind Supplies Ltd,PKG-0300,Corrugated carton 40x30x30,76,0.84,63.84,13%,USD,PO-41151,2026-09-25
+NW-08007,1,2026-08-23,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,112,23.60,2643.20,5%,USD,PO-40656,2026-09-22
+NW-08007,2,2026-08-23,NW-0042,Northwind Supplies Ltd,BRK-1001,"Steel bracket, zinc plated",100,2.35,235.00,13%,USD,PO-40656,2026-09-22
+NW-08007,3,2026-08-23,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",18,11.90,214.20,13%,USD,PO-40656,2026-09-22
+NW-08007,4,2026-08-23,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,43,23.60,1014.80,0%,USD,PO-40656,2026-09-22
+NW-08007,5,2026-08-23,NW-0042,Northwind Supplies Ltd,BRK-1001,"Steel bracket, zinc plated",90,2.35,211.50,0%,USD,PO-40656,2026-09-22
+NW-08008,1,2026-08-13,NW-0042,Northwind Supplies Ltd,TAP-0048,"Packing tape 48mm, 6 pack",46,7.45,342.70,5%,USD,PO-46078,2026-09-12
+NW-08008,2,2026-08-13,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,46,14.00,644.00,5%,USD,PO-46078,2026-09-12
+NW-08008,3,2026-08-13,NW-0042,Northwind Supplies Ltd,TAP-0048,"Packing tape 48mm, 6 pack",94,7.45,700.30,0%,USD,PO-46078,2026-09-12
+NW-08008,4,2026-08-13,NW-0042,Northwind Supplies Ltd,BRK-1001,"Steel bracket, zinc plated",9,2.35,21.15,13%,USD,PO-46078,2026-09-12
+NW-08008,5,2026-08-13,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",30,6.25,187.50,13%,USD,PO-46078,2026-09-12

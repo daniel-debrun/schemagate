@@ -1,0 +1,982 @@
+{
+  "overall": [
+    {
+      "config": "schemagate",
+      "variants": 551,
+      "columns": 12953,
+      "schema_columns": 8683,
+      "decoy_columns": 4270,
+      "deterministic_resolution": 0.227,
+      "precision": 0.777,
+      "recall": 0.5663,
+      "decoy_false_positive_rate": 0.2656,
+      "gate_queue_size": 1959,
+      "gate_share_of_predictions": 0.3096,
+      "gate_wrong": 0,
+      "precision_at_gate": 1.0,
+      "by_tier": {
+        "exact": {
+          "n": 1468,
+          "precision": 1.0
+        },
+        "model": {
+          "n": 4357,
+          "precision": 0.6762
+        },
+        "synonym": {
+          "n": 503,
+          "precision": 1.0
+        }
+      },
+      "recall_by_header_operation": {
+        "valentine": {
+          "n": 8683,
+          "recall": 0.5663
+        }
+      },
+      "seconds": 43.34
+    },
+    {
+      "config": "model_uncapped",
+      "variants": 551,
+      "columns": 12953,
+      "schema_columns": 8683,
+      "decoy_columns": 4270,
+      "deterministic_resolution": 0.0,
+      "precision": 0.777,
+      "recall": 0.5663,
+      "decoy_false_positive_rate": 0.2656,
+      "gate_queue_size": 1636,
+      "gate_share_of_predictions": 0.2585,
+      "gate_wrong": 0,
+      "precision_at_gate": 1.0,
+      "by_tier": {
+        "model": {
+          "n": 6328,
+          "precision": 0.777
+        }
+      },
+      "recall_by_header_operation": {
+        "valentine": {
+          "n": 8683,
+          "recall": 0.5663
+        }
+      },
+      "seconds": 43.38
+    }
+  ],
+  "by_group": {
+    "ChEMBL/Joinable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 744,
+        "schema_columns": 408,
+        "decoy_columns": 336,
+        "deterministic_resolution": 0.2034,
+        "precision": 0.5474,
+        "recall": 0.5662,
+        "decoy_false_positive_rate": 0.4494,
+        "gate_queue_size": 83,
+        "gate_share_of_predictions": 0.1967,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 68,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 339,
+            "precision": 0.4366
+          },
+          "synonym": {
+            "n": 15,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 408,
+            "recall": 0.5662
+          }
+        },
+        "seconds": 1.69
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 744,
+        "schema_columns": 408,
+        "decoy_columns": 336,
+        "deterministic_resolution": 0.0,
+        "precision": 0.5474,
+        "recall": 0.5662,
+        "decoy_false_positive_rate": 0.4494,
+        "gate_queue_size": 103,
+        "gate_share_of_predictions": 0.2441,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 422,
+            "precision": 0.5474
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 408,
+            "recall": 0.5662
+          }
+        },
+        "seconds": 1.65
+      }
+    ],
+    "ChEMBL/Semantically-Joinable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 744,
+        "schema_columns": 408,
+        "decoy_columns": 336,
+        "deterministic_resolution": 0.2108,
+        "precision": 0.5556,
+        "recall": 0.5637,
+        "decoy_false_positive_rate": 0.4405,
+        "gate_queue_size": 86,
+        "gate_share_of_predictions": 0.2077,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 68,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 328,
+            "precision": 0.439
+          },
+          "synonym": {
+            "n": 18,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 408,
+            "recall": 0.5637
+          }
+        },
+        "seconds": 1.71
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 744,
+        "schema_columns": 408,
+        "decoy_columns": 336,
+        "deterministic_resolution": 0.0,
+        "precision": 0.5556,
+        "recall": 0.5637,
+        "decoy_false_positive_rate": 0.4405,
+        "gate_queue_size": 102,
+        "gate_share_of_predictions": 0.2464,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 414,
+            "precision": 0.5556
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 408,
+            "recall": 0.5637
+          }
+        },
+        "seconds": 1.7
+      }
+    ],
+    "ChEMBL/Unionable": [
+      {
+        "config": "schemagate",
+        "variants": 36,
+        "columns": 828,
+        "schema_columns": 828,
+        "decoy_columns": 0,
+        "deterministic_resolution": 0.2017,
+        "precision": 0.8438,
+        "recall": 0.5217,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 167,
+        "gate_share_of_predictions": 0.3262,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 134,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 345,
+            "precision": 0.7681
+          },
+          "synonym": {
+            "n": 33,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 828,
+            "recall": 0.5217
+          }
+        },
+        "seconds": 1.96
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 36,
+        "columns": 828,
+        "schema_columns": 828,
+        "decoy_columns": 0,
+        "deterministic_resolution": 0.0,
+        "precision": 0.8438,
+        "recall": 0.5217,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 196,
+        "gate_share_of_predictions": 0.3828,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 512,
+            "precision": 0.8438
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 828,
+            "recall": 0.5217
+          }
+        },
+        "seconds": 1.98
+      }
+    ],
+    "ChEMBL/View-Unionable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 744,
+        "schema_columns": 408,
+        "decoy_columns": 336,
+        "deterministic_resolution": 0.1985,
+        "precision": 0.5575,
+        "recall": 0.5588,
+        "decoy_false_positive_rate": 0.4464,
+        "gate_queue_size": 81,
+        "gate_share_of_predictions": 0.198,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 69,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 328,
+            "precision": 0.4482
+          },
+          "synonym": {
+            "n": 12,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 408,
+            "recall": 0.5588
+          }
+        },
+        "seconds": 1.8
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 744,
+        "schema_columns": 408,
+        "decoy_columns": 336,
+        "deterministic_resolution": 0.0,
+        "precision": 0.5575,
+        "recall": 0.5588,
+        "decoy_false_positive_rate": 0.4464,
+        "gate_queue_size": 102,
+        "gate_share_of_predictions": 0.2494,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 409,
+            "precision": 0.5575
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 408,
+            "recall": 0.5588
+          }
+        },
+        "seconds": 1.73
+      }
+    ],
+    "Magellan": [
+      {
+        "config": "schemagate",
+        "variants": 7,
+        "columns": 41,
+        "schema_columns": 41,
+        "decoy_columns": 0,
+        "deterministic_resolution": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 40,
+        "gate_share_of_predictions": 0.9756,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 41,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 41,
+            "recall": 1.0
+          }
+        },
+        "seconds": 0.19
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 7,
+        "columns": 41,
+        "schema_columns": 41,
+        "decoy_columns": 0,
+        "deterministic_resolution": 0.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 40,
+        "gate_share_of_predictions": 0.9756,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 41,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 41,
+            "recall": 1.0
+          }
+        },
+        "seconds": 0.18
+      }
+    ],
+    "OpenData/Joinable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 1680,
+        "schema_columns": 912,
+        "decoy_columns": 768,
+        "deterministic_resolution": 0.2566,
+        "precision": 0.692,
+        "recall": 0.5789,
+        "decoy_false_positive_rate": 0.2865,
+        "gate_queue_size": 232,
+        "gate_share_of_predictions": 0.3041,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 153,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 529,
+            "precision": 0.5558
+          },
+          "synonym": {
+            "n": 81,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 912,
+            "recall": 0.5789
+          }
+        },
+        "seconds": 6.48
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 1680,
+        "schema_columns": 912,
+        "decoy_columns": 768,
+        "deterministic_resolution": 0.0,
+        "precision": 0.692,
+        "recall": 0.5789,
+        "decoy_false_positive_rate": 0.2865,
+        "gate_queue_size": 153,
+        "gate_share_of_predictions": 0.2005,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 763,
+            "precision": 0.692
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 912,
+            "recall": 0.5789
+          }
+        },
+        "seconds": 6.32
+      }
+    ],
+    "OpenData/Semantically-Joinable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 1680,
+        "schema_columns": 912,
+        "decoy_columns": 768,
+        "deterministic_resolution": 0.2533,
+        "precision": 0.692,
+        "recall": 0.5691,
+        "decoy_false_positive_rate": 0.2812,
+        "gate_queue_size": 229,
+        "gate_share_of_predictions": 0.3053,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 154,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 519,
+            "precision": 0.5549
+          },
+          "synonym": {
+            "n": 77,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 912,
+            "recall": 0.5691
+          }
+        },
+        "seconds": 6.29
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 1680,
+        "schema_columns": 912,
+        "decoy_columns": 768,
+        "deterministic_resolution": 0.0,
+        "precision": 0.692,
+        "recall": 0.5691,
+        "decoy_false_positive_rate": 0.2812,
+        "gate_queue_size": 153,
+        "gate_share_of_predictions": 0.204,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 750,
+            "precision": 0.692
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 912,
+            "recall": 0.5691
+          }
+        },
+        "seconds": 6.3
+      }
+    ],
+    "OpenData/Unionable": [
+      {
+        "config": "schemagate",
+        "variants": 36,
+        "columns": 1836,
+        "schema_columns": 1836,
+        "decoy_columns": 0,
+        "deterministic_resolution": 0.2397,
+        "precision": 0.9875,
+        "recall": 0.5572,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 434,
+        "gate_share_of_predictions": 0.4189,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 292,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 596,
+            "precision": 0.9782
+          },
+          "synonym": {
+            "n": 148,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 1836,
+            "recall": 0.5572
+          }
+        },
+        "seconds": 7.08
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 36,
+        "columns": 1836,
+        "schema_columns": 1836,
+        "decoy_columns": 0,
+        "deterministic_resolution": 0.0,
+        "precision": 0.9875,
+        "recall": 0.5572,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 289,
+        "gate_share_of_predictions": 0.279,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 1036,
+            "precision": 0.9875
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 1836,
+            "recall": 0.5572
+          }
+        },
+        "seconds": 7.22
+      }
+    ],
+    "OpenData/View -Unionable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 1680,
+        "schema_columns": 912,
+        "decoy_columns": 768,
+        "deterministic_resolution": 0.2588,
+        "precision": 0.6996,
+        "recall": 0.5822,
+        "decoy_false_positive_rate": 0.2773,
+        "gate_queue_size": 235,
+        "gate_share_of_predictions": 0.3096,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 154,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 523,
+            "precision": 0.5641
+          },
+          "synonym": {
+            "n": 82,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 912,
+            "recall": 0.5822
+          }
+        },
+        "seconds": 6.39
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 1680,
+        "schema_columns": 912,
+        "decoy_columns": 768,
+        "deterministic_resolution": 0.0,
+        "precision": 0.6996,
+        "recall": 0.5822,
+        "decoy_false_positive_rate": 0.2773,
+        "gate_queue_size": 154,
+        "gate_share_of_predictions": 0.2029,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 759,
+            "precision": 0.6996
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 912,
+            "recall": 0.5822
+          }
+        },
+        "seconds": 6.33
+      }
+    ],
+    "TPC-DI/Joinable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 708,
+        "schema_columns": 396,
+        "decoy_columns": 312,
+        "deterministic_resolution": 0.1894,
+        "precision": 0.9474,
+        "recall": 0.5909,
+        "decoy_false_positive_rate": 0.0256,
+        "gate_queue_size": 75,
+        "gate_share_of_predictions": 0.3036,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 66,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 172,
+            "precision": 0.9244
+          },
+          "synonym": {
+            "n": 9,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 396,
+            "recall": 0.5909
+          }
+        },
+        "seconds": 2.54
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 708,
+        "schema_columns": 396,
+        "decoy_columns": 312,
+        "deterministic_resolution": 0.0,
+        "precision": 0.9474,
+        "recall": 0.5909,
+        "decoy_false_positive_rate": 0.0256,
+        "gate_queue_size": 68,
+        "gate_share_of_predictions": 0.2753,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 247,
+            "precision": 0.9474
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 396,
+            "recall": 0.5909
+          }
+        },
+        "seconds": 2.49
+      }
+    ],
+    "TPC-DI/Semantically-Joinable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 708,
+        "schema_columns": 396,
+        "decoy_columns": 312,
+        "deterministic_resolution": 0.1843,
+        "precision": 0.9309,
+        "recall": 0.5783,
+        "decoy_false_positive_rate": 0.0321,
+        "gate_queue_size": 73,
+        "gate_share_of_predictions": 0.2967,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 66,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 173,
+            "precision": 0.9017
+          },
+          "synonym": {
+            "n": 7,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 396,
+            "recall": 0.5783
+          }
+        },
+        "seconds": 2.46
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 708,
+        "schema_columns": 396,
+        "decoy_columns": 312,
+        "deterministic_resolution": 0.0,
+        "precision": 0.9309,
+        "recall": 0.5783,
+        "decoy_false_positive_rate": 0.0321,
+        "gate_queue_size": 68,
+        "gate_share_of_predictions": 0.2764,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 246,
+            "precision": 0.9309
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 396,
+            "recall": 0.5783
+          }
+        },
+        "seconds": 3.05
+      }
+    ],
+    "TPC-DI/Unionable": [
+      {
+        "config": "schemagate",
+        "variants": 36,
+        "columns": 792,
+        "schema_columns": 792,
+        "decoy_columns": 0,
+        "deterministic_resolution": 0.1869,
+        "precision": 0.9802,
+        "recall": 0.5631,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 148,
+        "gate_share_of_predictions": 0.3253,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 132,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 307,
+            "precision": 0.9707
+          },
+          "synonym": {
+            "n": 16,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 792,
+            "recall": 0.5631
+          }
+        },
+        "seconds": 3.8
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 36,
+        "columns": 792,
+        "schema_columns": 792,
+        "decoy_columns": 0,
+        "deterministic_resolution": 0.0,
+        "precision": 0.9802,
+        "recall": 0.5631,
+        "decoy_false_positive_rate": null,
+        "gate_queue_size": 136,
+        "gate_share_of_predictions": 0.2989,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 455,
+            "precision": 0.9802
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 792,
+            "recall": 0.5631
+          }
+        },
+        "seconds": 3.8
+      }
+    ],
+    "TPC-DI/View-Unionable": [
+      {
+        "config": "schemagate",
+        "variants": 48,
+        "columns": 708,
+        "schema_columns": 396,
+        "decoy_columns": 312,
+        "deterministic_resolution": 0.1793,
+        "precision": 0.9319,
+        "recall": 0.553,
+        "decoy_false_positive_rate": 0.0385,
+        "gate_queue_size": 71,
+        "gate_share_of_predictions": 0.3021,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 66,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 164,
+            "precision": 0.9024
+          },
+          "synonym": {
+            "n": 5,
+            "precision": 1.0
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 396,
+            "recall": 0.553
+          }
+        },
+        "seconds": 3.44
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 48,
+        "columns": 708,
+        "schema_columns": 396,
+        "decoy_columns": 312,
+        "deterministic_resolution": 0.0,
+        "precision": 0.9319,
+        "recall": 0.553,
+        "decoy_false_positive_rate": 0.0385,
+        "gate_queue_size": 67,
+        "gate_share_of_predictions": 0.2851,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 235,
+            "precision": 0.9319
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 396,
+            "recall": 0.553
+          }
+        },
+        "seconds": 3.39
+      }
+    ],
+    "Wikidata/Musicians": [
+      {
+        "config": "schemagate",
+        "variants": 4,
+        "columns": 60,
+        "schema_columns": 38,
+        "decoy_columns": 22,
+        "deterministic_resolution": 0.1316,
+        "precision": 0.6667,
+        "recall": 0.6842,
+        "decoy_false_positive_rate": 0.2727,
+        "gate_queue_size": 5,
+        "gate_share_of_predictions": 0.1282,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "exact": {
+            "n": 5,
+            "precision": 1.0
+          },
+          "model": {
+            "n": 34,
+            "precision": 0.6176
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 38,
+            "recall": 0.6842
+          }
+        },
+        "seconds": 0.26
+      },
+      {
+        "config": "model_uncapped",
+        "variants": 4,
+        "columns": 60,
+        "schema_columns": 38,
+        "decoy_columns": 22,
+        "deterministic_resolution": 0.0,
+        "precision": 0.6667,
+        "recall": 0.6842,
+        "decoy_false_positive_rate": 0.2727,
+        "gate_queue_size": 5,
+        "gate_share_of_predictions": 0.1282,
+        "gate_wrong": 0,
+        "precision_at_gate": 1.0,
+        "by_tier": {
+          "model": {
+            "n": 39,
+            "precision": 0.6667
+          }
+        },
+        "recall_by_header_operation": {
+          "valentine": {
+            "n": 38,
+            "recall": 0.6842
+          }
+        },
+        "seconds": 0.25
+      }
+    ]
+  }
+}

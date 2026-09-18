@@ -1,0 +1,72 @@
+name: supplier_invoice
+table: invoice_lines
+version: 1
+description: One row per invoice line received from a supplier.
+key: [supplier_id, invoice_number, line_number]
+published: false
+fields:
+  - name: invoice_number
+    type: string
+    required: true
+    description: Supplier-assigned invoice identifier.
+    aliases: [invoice no, inv number, bill number]
+  - name: line_number
+    type: integer
+    required: true
+    description: Position of the line within the invoice, starting at 1.
+    aliases: [line, line no, item line]
+  - name: invoice_date
+    type: date
+    required: true
+    description: Date the invoice was issued.
+    aliases: [billing date, issued on]
+  - name: supplier_id
+    type: string
+    required: true
+    description: Identifier of the supplier in the buyer's vendor master.
+    aliases: [vendor id, vendor code, supplier code]
+  - name: supplier_name
+    type: string
+    description: Legal or trading name of the supplier.
+    aliases: [vendor name, vendor]
+  - name: sku
+    type: string
+    description: Stock keeping unit or item code of the purchased item.
+    aliases: [item code, part number, product code]
+  - name: item_description
+    type: string
+    description: Free-text description of the purchased item.
+    aliases: [description, item]
+  - name: quantity
+    type: number
+    required: true
+    description: Number of units invoiced on the line.
+    aliases: [units, qty invoiced]
+  - name: unit_price
+    type: number
+    unit: usd
+    description: Price per unit before tax.
+    aliases: [price each, unit cost]
+  - name: line_total
+    type: number
+    unit: usd
+    description: Extended line amount before tax (quantity times unit price).
+    aliases: [extended amount, ext price, line amount]
+  - name: tax_rate
+    type: number
+    unit: percent
+    description: Sales or value-added tax rate applied to the line, in percent.
+    aliases: [vat rate]
+  - name: currency
+    type: string
+    description: ISO 4217 currency code of the amounts.
+    allowed_values: [USD, EUR, GBP, CAD]
+  - name: po_number
+    type: string
+    description: Buyer purchase order reference.
+    pattern: "PO-[0-9]+"
+    aliases: [purchase order]
+  - name: due_date
+    type: date
+    description: Date payment is due.
+    aliases: [payment due]

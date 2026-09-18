@@ -1,0 +1,20 @@
+name: clinical_site_report
+table: site_monthly_report
+description: Monthly enrollment and data-quality report submitted by a clinical trial site.
+key: [study_id, site_id, report_month]
+fields:
+  - {name: study_id, type: string, required: true, description: Protocol identifier of the study., aliases: [protocol id, protocol number, trial id]}
+  - {name: site_id, type: string, required: true, description: Sponsor-assigned site number., aliases: [site number, center id, centre id]}
+  - {name: site_name, type: string, description: Name of the investigational site or hospital., aliases: [institution, center name]}
+  - {name: country, type: string, description: Country where the site is located., aliases: [site country]}
+  - {name: principal_investigator, type: string, description: Name of the lead investigator at the site., aliases: [pi name, investigator]}
+  - {name: report_month, type: date, required: true, description: First day of the reporting month., aliases: [reporting period, period]}
+  - {name: patients_screened, type: integer, description: Number of patients screened during the month., aliases: [screened, screening count]}
+  - {name: patients_enrolled, type: integer, required: true, description: Number of patients randomized or enrolled during the month., aliases: [enrolled, randomized]}
+  - {name: screen_failures, type: integer, description: Patients who failed screening., aliases: [screen fail count]}
+  - {name: patients_discontinued, type: integer, description: Patients who withdrew or discontinued treatment., aliases: [dropouts, withdrawals]}
+  - {name: open_queries, type: integer, description: Unresolved data-management queries at month end., aliases: [outstanding queries]}
+  - {name: protocol_deviations, type: integer, description: Protocol deviations recorded in the month., aliases: [deviations]}
+  - {name: last_monitoring_visit, type: date, description: Date of the most recent monitoring visit., aliases: [last visit date, last imv]}
+  - {name: site_status, type: string, description: Recruitment status of the site., allowed_values: [active, on hold, closed, not yet recruiting], aliases: [recruitment status]}
+  - {name: enrollment_target, type: integer, description: Contracted number of patients for the site., aliases: [target enrollment, planned enrollment]}

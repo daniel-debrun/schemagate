@@ -1,0 +1,250 @@
+[
+  {
+    "config": "schemagate",
+    "variants": 200,
+    "columns": 2971,
+    "schema_columns": 2444,
+    "decoy_columns": 527,
+    "deterministic_resolution": 0.4251,
+    "precision": 0.9378,
+    "recall": 0.8826,
+    "decoy_false_positive_rate": 0.0759,
+    "gate_queue_size": 1039,
+    "gate_share_of_predictions": 0.4517,
+    "gate_wrong": 0,
+    "precision_at_gate": 1.0,
+    "by_tier": {
+      "dictionary": {
+        "n": 412,
+        "precision": 1.0
+      },
+      "exact": {
+        "n": 336,
+        "precision": 1.0
+      },
+      "model": {
+        "n": 1261,
+        "precision": 0.8866
+      },
+      "synonym": {
+        "n": 291,
+        "precision": 1.0
+      }
+    },
+    "recall_by_header_operation": {
+      "abbreviation": {
+        "n": 349,
+        "recall": 0.914
+      },
+      "alias": {
+        "n": 598,
+        "recall": 0.9916
+      },
+      "canonical": {
+        "n": 578,
+        "recall": 0.9862
+      },
+      "foreign": {
+        "n": 75,
+        "recall": 0.68
+      },
+      "paraphrase": {
+        "n": 1268,
+        "recall": 0.7839
+      },
+      "reorder": {
+        "n": 288,
+        "recall": 0.8993
+      },
+      "typo": {
+        "n": 230,
+        "recall": 0.7957
+      },
+      "unit_suffix": {
+        "n": 185,
+        "recall": 0.9297
+      }
+    },
+    "seconds": 10.0
+  },
+  {
+    "config": "model_uncapped",
+    "variants": 200,
+    "columns": 2971,
+    "schema_columns": 2444,
+    "decoy_columns": 527,
+    "deterministic_resolution": 0.0,
+    "precision": 0.9378,
+    "recall": 0.8826,
+    "decoy_false_positive_rate": 0.0759,
+    "gate_queue_size": 954,
+    "gate_share_of_predictions": 0.4148,
+    "gate_wrong": 0,
+    "precision_at_gate": 1.0,
+    "by_tier": {
+      "model": {
+        "n": 2300,
+        "precision": 0.9378
+      }
+    },
+    "recall_by_header_operation": {
+      "abbreviation": {
+        "n": 349,
+        "recall": 0.914
+      },
+      "alias": {
+        "n": 598,
+        "recall": 0.9916
+      },
+      "canonical": {
+        "n": 578,
+        "recall": 0.9862
+      },
+      "foreign": {
+        "n": 75,
+        "recall": 0.68
+      },
+      "paraphrase": {
+        "n": 1268,
+        "recall": 0.7839
+      },
+      "reorder": {
+        "n": 288,
+        "recall": 0.8993
+      },
+      "typo": {
+        "n": 230,
+        "recall": 0.7957
+      },
+      "unit_suffix": {
+        "n": 185,
+        "recall": 0.9297
+      }
+    },
+    "seconds": 11.04
+  },
+  {
+    "config": "schemagate_overconfident",
+    "variants": 200,
+    "columns": 2971,
+    "schema_columns": 2444,
+    "decoy_columns": 527,
+    "deterministic_resolution": 0.4251,
+    "precision": 0.9378,
+    "recall": 0.8826,
+    "decoy_false_positive_rate": 0.0759,
+    "gate_queue_size": 1039,
+    "gate_share_of_predictions": 0.4517,
+    "gate_wrong": 0,
+    "precision_at_gate": 1.0,
+    "by_tier": {
+      "dictionary": {
+        "n": 412,
+        "precision": 1.0
+      },
+      "exact": {
+        "n": 336,
+        "precision": 1.0
+      },
+      "model": {
+        "n": 1261,
+        "precision": 0.8866
+      },
+      "synonym": {
+        "n": 291,
+        "precision": 1.0
+      }
+    },
+    "recall_by_header_operation": {
+      "abbreviation": {
+        "n": 349,
+        "recall": 0.914
+      },
+      "alias": {
+        "n": 598,
+        "recall": 0.9916
+      },
+      "canonical": {
+        "n": 578,
+        "recall": 0.9862
+      },
+      "foreign": {
+        "n": 75,
+        "recall": 0.68
+      },
+      "paraphrase": {
+        "n": 1268,
+        "recall": 0.7839
+      },
+      "reorder": {
+        "n": 288,
+        "recall": 0.8993
+      },
+      "typo": {
+        "n": 230,
+        "recall": 0.7957
+      },
+      "unit_suffix": {
+        "n": 185,
+        "recall": 0.9297
+      }
+    },
+    "seconds": 11.07
+  },
+  {
+    "config": "model_overconfident_uncapped",
+    "variants": 200,
+    "columns": 2971,
+    "schema_columns": 2444,
+    "decoy_columns": 527,
+    "deterministic_resolution": 0.0,
+    "precision": 0.9378,
+    "recall": 0.8826,
+    "decoy_false_positive_rate": 0.0759,
+    "gate_queue_size": 1507,
+    "gate_share_of_predictions": 0.6552,
+    "gate_wrong": 8,
+    "precision_at_gate": 0.9947,
+    "by_tier": {
+      "model": {
+        "n": 2300,
+        "precision": 0.9378
+      }
+    },
+    "recall_by_header_operation": {
+      "abbreviation": {
+        "n": 349,
+        "recall": 0.914
+      },
+      "alias": {
+        "n": 598,
+        "recall": 0.9916
+      },
+      "canonical": {
+        "n": 578,
+        "recall": 0.9862
+      },
+      "foreign": {
+        "n": 75,
+        "recall": 0.68
+      },
+      "paraphrase": {
+        "n": 1268,
+        "recall": 0.7839
+      },
+      "reorder": {
+        "n": 288,
+        "recall": 0.8993
+      },
+      "typo": {
+        "n": 230,
+        "recall": 0.7957
+      },
+      "unit_suffix": {
+        "n": 185,
+        "recall": 0.9297
+      }
+    },
+    "seconds": 21.47
+  }
+]

@@ -1,0 +1,28 @@
+Invoice Number,Line,Invoice Date,Vendor ID,Vendor Name,SKU,Description,Qty,Unit Price (USD),Line Total (USD),Tax %,Currency,PO Number,Due Date
+NW-07001,1,2026-07-26,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",38,9.10,345.80,13%,USD,PO-47548,2026-08-25
+NW-07001,2,2026-07-26,NW-0042,Northwind Supplies Ltd,TAP-0048,"Packing tape 48mm, 6 pack",101,7.45,752.45,0%,USD,PO-47548,2026-08-25
+NW-07002,1,2026-07-27,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",13,9.10,118.30,5%,USD,PO-46521,2026-08-26
+NW-07002,2,2026-07-27,NW-0042,Northwind Supplies Ltd,TAP-0048,"Packing tape 48mm, 6 pack",109,7.45,812.05,5%,USD,PO-46521,2026-08-26
+NW-07002,3,2026-07-27,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,47,14.00,658.00,5%,USD,PO-46521,2026-08-26
+NW-07002,4,2026-07-27,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",13,6.25,81.25,13%,USD,PO-46521,2026-08-26
+NW-07003,1,2026-07-23,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",72,11.90,856.80,5%,USD,PO-47760,2026-08-22
+NW-07003,2,2026-07-23,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,79,14.00,1106.00,0%,USD,PO-47760,2026-08-22
+NW-07004,1,2026-07-03,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",65,11.90,773.50,5%,USD,PO-47337,2026-08-02
+NW-07004,2,2026-07-03,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,115,23.60,2714.00,5%,USD,PO-47337,2026-08-02
+NW-07005,1,2026-07-21,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,27,14.00,378.00,5%,USD,PO-44384,2026-08-20
+NW-07005,2,2026-07-21,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",37,11.90,440.30,0%,USD,PO-44384,2026-08-20
+NW-07005,3,2026-07-21,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",52,11.90,618.80,5%,USD,PO-44384,2026-08-20
+NW-07005,4,2026-07-21,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",3,11.90,35.70,5%,USD,PO-44384,2026-08-20
+NW-07006,1,2026-07-05,NW-0042,Northwind Supplies Ltd,PAL-1200,Wooden pallet 1200x800,33,14.00,462.00,5%,USD,PO-44350,2026-08-04
+NW-07006,2,2026-07-05,NW-0042,Northwind Supplies Ltd,PKG-0300,Corrugated carton 40x30x30,113,0.84,94.92,5%,USD,PO-44350,2026-08-04
+NW-07006,3,2026-07-05,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",71,6.25,443.75,13%,USD,PO-44350,2026-08-04
+NW-07006,4,2026-07-05,NW-0042,Northwind Supplies Ltd,LBL-0012,"Thermal shipping labels, roll",37,6.25,231.25,13%,USD,PO-44350,2026-08-04
+NW-07006,5,2026-07-05,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,37,23.60,873.20,5%,USD,PO-44350,2026-08-04
+NW-07007,1,2026-07-23,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",114,9.10,1037.40,13%,USD,PO-45611,2026-08-22
+NW-07007,2,2026-07-23,NW-0042,Northwind Supplies Ltd,FST-2040,"Hex bolt M8x40, box of 100",25,11.90,297.50,5%,USD,PO-45611,2026-08-22
+NW-07007,3,2026-07-23,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",83,9.10,755.30,13%,USD,PO-45611,2026-08-22
+NW-07007,4,2026-07-23,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,105,23.60,2478.00,13%,USD,PO-45611,2026-08-22
+NW-07007,5,2026-07-23,NW-0042,Northwind Supplies Ltd,BRK-1001,"Steel bracket, zinc plated",67,2.35,157.45,5%,USD,PO-45611,2026-08-22
+NW-07008,1,2026-07-13,NW-0042,Northwind Supplies Ltd,PKG-0300,Corrugated carton 40x30x30,40,0.84,33.60,5%,USD,PO-44733,2026-08-12
+NW-07008,2,2026-07-13,NW-0042,Northwind Supplies Ltd,GLV-0550,"Nitrile gloves, size L, box",106,9.10,964.60,0%,USD,PO-44733,2026-08-12
+NW-07008,3,2026-07-13,NW-0042,Northwind Supplies Ltd,CLN-0090,Industrial degreaser 5L,52,23.60,1227.20,13%,USD,PO-44733,2026-08-12
